@@ -38,6 +38,15 @@
              "AOUT": "DAC0_OUT",
              "DIO_8":"PTC12",
              "DIO_9":"PTC4"
+        },
+        "NUCLEO_F072RB": {
+            "AOUT": "A2"
+        },
+        "NUCLEO_L476RG": {
+            "AOUT": "A2"
+        },
+        "NUCLEO_L073RZ": {
+            "AOUT": "A2"
         }
     }
 }
