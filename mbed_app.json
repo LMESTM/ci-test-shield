@@ -27,10 +27,8 @@
         "AIN_4": "A4",
         "AIN_5": "A5",
         "AOUT":  "A5",
-        "PWM_0": "D3",
-        "PWM_1": "D5",
-        "PWM_2": "D6",
-        "PWM_3": "D9",
+        "PWM_0": "D2",
+        "PWMIN_0": "D3",
         "DEBUG_MSG": 0
     },
     "target_overrides": {
@@ -42,11 +40,25 @@
         "NUCLEO_F072RB": {
             "AOUT": "A2"
         },
+        "NUCLEO_F410RB": {
+            "AOUT": "D13"
+        },
         "NUCLEO_L476RG": {
             "AOUT": "A2"
         },
+        "NUCLEO_F207ZG": {
+            "PWM_0": "D3",
+            "PWMIN_0": "D2"
+        },
         "NUCLEO_L073RZ": {
-            "AOUT": "A2"
+            "AOUT": "A2",
+            "PWM_0": "D5",
+            "PWMIN_0": "D4"
+        },
+        "NUCLEO_L152RE": {
+            "AOUT": "A2",
+            "PWM_0": "D3",
+            "PWMIN_0": "D2"
         }
     }
 }
