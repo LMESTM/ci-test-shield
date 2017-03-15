@@ -46,6 +46,10 @@
         "NUCLEO_F410RB": {
             "AOUT": "D13"
         },
+        "NUCLEO_F746ZG": {
+            "PWM_0": "D9",
+            "PWMIN_0": "D8"
+        },
         "NUCLEO_L476RG": {
             "AOUT": "A2"
         },
