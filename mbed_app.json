@@ -40,6 +40,9 @@
         "NUCLEO_F072RB": {
             "AOUT": "A2"
         },
+        "NUCLEO_F091RC": {
+            "AOUT": "A2"
+        },
         "NUCLEO_F410RB": {
             "AOUT": "D13"
         },
